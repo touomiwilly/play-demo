@@ -13,6 +13,6 @@ libraryDependencies ++= Seq(
 )
 
 enablePlugins(DebianPlugin)
-maintainer := "Willy Ngoupoyou <wtouomi@gmail.com>"
+maintainer := "Ng Marel <wtouomi@gmail.com>"
 packageSummary := "My first package built with Jenkins"
 packageDescription := "Package"
