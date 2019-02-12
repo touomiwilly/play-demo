@@ -11,3 +11,8 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(DebianPlugin)
+maintainer := "Willy Ngoupoyou <wtouomi@gmail.com>"
+packageSummary := "My first package built with Jenkins"
+packageDescription := "Package"
